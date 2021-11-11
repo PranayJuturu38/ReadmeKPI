@@ -18,7 +18,9 @@ mvn spring-boot:run
 ````
 ## Sample URL
 ````
+http://localhost:9196/report/reports?type=global&modules=&search=&sortType=&sort=&page=1&limit=10
 ````
 ## Postman Collection Link
 ````
+https://www.getpostman.com/collections/4849ea95277297af6c98
 ````
