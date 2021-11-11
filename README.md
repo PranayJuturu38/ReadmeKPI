@@ -1,4 +1,4 @@
-# Kpi-report-api
+# Kpi-reports-api
 ***
 ## Prerequisites
 * Spring Boot - v2.0.1.RELEASE
@@ -7,12 +7,25 @@
 * MYSQL Server - v5.7.33
 
 ## Description
+
+KPI-Report-API repository consists of two java based projects based on adapter desgin pattern.The report REST API application handshakes with the front end application. 
+The report application is used as an internal dependency which does the heavy lifting for report module.
+
+The application can be accessed through the link below
+````
+https://universe-report-v4.testing.kpininja.com/#/reports.
+````
+
 ## Steps to install and run
-1. Navigate to the folder that contains the application and run the following command to build the application.
+1. Clone git reposotiry
+````
+git clone https://bitbucket.org/kpininjarepo/kpi-reports-api/src/dev/
+````
+2. Navigate to the folder where the repository is cloned and run the following command to build the application.
 ````
 mvn clean install
 ````
-2. Run the application using the command
+3. Run the application using the command
 ````
 mvn spring-boot:run
 ````
