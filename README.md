@@ -6,8 +6,8 @@
 * java - 8
 * MYSQL Server -- 5.7.33
 
-##Description
-##Steps to install and run
+## Description
+## Steps to install and run
 1. Navigate to the folder that contains the application and run the following command to build the application.
 ````
 mvn clean install
@@ -16,9 +16,9 @@ mvn clean install
 ````
 mvn spring-boot:run
 ````
-##Sample URL
+## Sample URL
 ````
 ````
-##Postman Collection Link
+## Postman Collection Link
 ````
 ````
