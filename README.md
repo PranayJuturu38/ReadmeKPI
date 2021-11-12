@@ -23,14 +23,20 @@ git clone https://bitbucket.org/kpininjarepo/kpi-reports-api/src/dev/
 ````
 2. Replace settings.xml file
 
-   a. If IDE is `Intellij` then the following steps are to be performed to replace the `settings.xml` file.
-````
-Go to File -> Settings -> Build, Execution, Deployment -> Build Tools -> Maven
+   a. Steps to replace `settings.xml` in `Intellij` IDE
+   ````
+   * Go to File -> Settings -> Build, Execution, Deployment -> Build Tools -> Maven
+   * The field `User Settings file` contains the path to the settings.xml file
+   * Navigate to the path and replace the settings.xml file with the file available with same name in the repository
 
-The field `User Settings file` contains the path to the settings.xml file
-
-Navigate to the path and replace the settings.xml file with the file available with same name in the repository
-````
+   ````
+   b.Steps to replace `settings.xml` in `Ecllipse` IDE
+   ````
+   * Go to Window -> Preferences
+   * Click on the Browse button of User Settings, and select the settings.xml from the repository
+   * Click on the "Update Settings" button to update the settings. If any confirmation dialog appears, just click Yes.
+   
+   ````
 3. Navigate to the folder where the repository is cloned and run the following command to build the application.
 ````
 mvn clean install
