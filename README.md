@@ -1,10 +1,10 @@
 # Kpi-reports-api
 ***
 ## Prerequisites
-* Spring Boot - v2.0.1.RELEASE
-* Maven - v3.8.1
-* Java - v8
-* MYSQL Server - v5.7.33
+* [Spring Boot](https://spring.io/) - v2.0.1.RELEASE
+* [Maven](https://maven.apache.org/download.cgi) - v3.8.1
+* [Java](https://www.oracle.com/java/technologies/downloads/) - v8
+* [MYSQL Server](https://www.mysql.com/downloads/) - v5.7.33
 
 ## Description
 
