@@ -58,5 +58,5 @@ https://www.getpostman.com/collections/4849ea95277297af6c98
 ````
 
 ### Author
-[Pranay Juturu] (pjuturu@kpininja.com)
+[Pranay Juturu](pjuturu@kpininja.com)
 
