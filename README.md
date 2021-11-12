@@ -21,13 +21,13 @@ https://universe-report-v4.testing.kpininja.com/#/reports.
 ````
 git clone https://bitbucket.org/kpininjarepo/kpi-reports-api/src/dev/
 ````
-2.Replace settings.xml file
+2. Replace settings.xml file
 
-a. If IDE is `Intellij` then the following steps are to be performed to replace the `settings.xml` file.
+   a. If IDE is `Intellij` then the following steps are to be performed to replace the `settings.xml` file.
 ````
 Go to File -> Settings -> Build, Execution, Deployment -> Build Tools -> Maven
 
-The field User Settings file contains the path to the settings.xml file
+The field `User Settings file` contains the path to the settings.xml file
 
 Navigate to the path and replace the settings.xml file with the file available with same name in the repository
 ````
