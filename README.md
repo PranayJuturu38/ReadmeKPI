@@ -26,14 +26,15 @@ git clone https://bitbucket.org/kpininjarepo/kpi-reports-api/src/dev/
    a. Steps to replace `settings.xml` in `Intellij` IDE
    ````
    * Go to File -> Settings -> Build, Execution, Deployment -> Build Tools -> Maven
-   * The field `User Settings file` contains the path to the settings.xml file
-   * Navigate to the path and replace the settings.xml file with the file available with same name in the repository
+   * Select the 'Override' checkbox next to 'User Setting File'.
+   * Click on Browse button and select the settings.xml file from the repository.
+   * Click Apply.
 
    ````
    b.Steps to replace `settings.xml` in `Ecllipse` IDE
    ````
    * Go to Window -> Preferences
-   * Click on the Browse button of User Settings, and select the settings.xml from the repository
+   * Click on the Browse button of User Settings, and select the settings.xml from the repository.
    * Click on the "Update Settings" button to update the settings. If any confirmation dialog appears, just click Yes.
    
    ````
@@ -55,3 +56,7 @@ The Postman collection link is used to test the endpoints and perform request ma
 ````
 https://www.getpostman.com/collections/4849ea95277297af6c98
 ````
+
+###Author
+[Pranay Juturu] (pjuturu@kpininja.com)
+
