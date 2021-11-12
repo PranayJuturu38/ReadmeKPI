@@ -59,5 +59,3 @@ https://www.getpostman.com/collections/4849ea95277297af6c98
 
 ### Author
 [Pranay Juturu](https://teams.microsoft.com/l/team/19%3aWB7L5KVaUkHBv8UiBt5xM0FMDdQNflVtrAPeXdH0XjI1%40thread.tacv2/conversations?groupId=444694ad-ecca-4857-a955-e3cf09528bd5&tenantId=d07ee4ce-db25-419d-a7d2-b04977af8f2a)
-### Approver
-[Siba Acharya](https://teams.microsoft.com/l/team/19%3aWB7L5KVaUkHBv8UiBt5xM0FMDdQNflVtrAPeXdH0XjI1%40thread.tacv2/conversations?groupId=444694ad-ecca-4857-a955-e3cf09528bd5&tenantId=d07ee4ce-db25-419d-a7d2-b04977af8f2a)
