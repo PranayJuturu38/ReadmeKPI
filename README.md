@@ -28,15 +28,14 @@ git clone https://bitbucket.org/kpininjarepo/kpi-reports-api/src/dev/
    * Go to File -> Settings -> Build, Execution, Deployment -> Build Tools -> Maven
    * Select the 'Override' checkbox next to 'User Setting File'.
    * Click on Browse button and select the settings.xml file from the repository.
-   * Click Apply.
+   * Click on Apply.
 
    ````
    b.Steps to replace `settings.xml` in `Ecllipse` IDE
    ````
-   * Go to Window -> Preferences
+   * Go to Window -> Preferences -> Maven -> User Settings
    * Click on the Browse button of User Settings, and select the settings.xml from the repository.
-   * Click on the "Update Settings" button to update the settings. If any confirmation dialog appears, just click Yes.
-   
+   * Click on Apply. 
    ````
 3. Navigate to the folder where the repository is cloned and run the following command to build the application.
 ````
