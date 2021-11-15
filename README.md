@@ -21,7 +21,15 @@ https://universe-report-v4.testing.kpininja.com/#/reports.
 ````
 git clone https://bitbucket.org/kpininjarepo/kpi-reports-api/src/dev/
 ````
-2. Replace settings.xml file
+2.Creating Database
+````
+create database testing_univ_dev_v4;
+````
+3.Schema for the database can be found at
+````
+https://bitbucket.org/kpininjarepo/kpi-univ-sql/src/66ec6080da6608bee7921a161542ef556c827053/Structure%20%26%20Default%20data/?at=release%2Fdev
+````
+4. Replace settings.xml file
 
    a. Steps to replace `settings.xml` in `Intellij` IDE
    ````
@@ -37,11 +45,11 @@ git clone https://bitbucket.org/kpininjarepo/kpi-reports-api/src/dev/
    * Click on the Browse button of User Settings, and select the settings.xml from the repository.
    * Click on Apply. 
    ````
-3. Navigate to the folder where the repository is cloned and run the following command to build the application.
+5. Navigate to the folder where the repository is cloned and run the following command to build the application.
 ````
 mvn clean install
 ````
-4. Run the application using the command
+6. Run the application using the command
 ````
 mvn spring-boot:run
 ````
