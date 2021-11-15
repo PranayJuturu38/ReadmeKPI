@@ -21,11 +21,11 @@ https://universe-report-v4.testing.kpininja.com/#/reports.
 ````
 git clone https://bitbucket.org/kpininjarepo/kpi-reports-api/src/dev/
 ````
-2.Creating Database
+2. Creating Database
 ````
 create database testing_univ_dev_v4;
 ````
-3.Schema for the database can be found at
+3. Schema for the database can be found at
 ````
 https://bitbucket.org/kpininjarepo/kpi-univ-sql/src/66ec6080da6608bee7921a161542ef556c827053/Structure%20%26%20Default%20data/?at=release%2Fdev
 ````
