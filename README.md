@@ -1,4 +1,4 @@
-# Kpi-reports-api
+# Kpi-App-API
 ***
 ## Prerequisites
 * [Spring Boot](https://spring.io/) - v2.0.1.RELEASE
@@ -8,18 +8,19 @@
 
 ## Description
 
-KPI-Report-API repository consists of two java based projects based on adapter desgin pattern.The report REST API application handshakes with the front end application. 
-The report application is used as an internal dependency which does the heavy lifting for report module.
+App module is responsible for exposing all the services which will be used in dynamic app and menu creation.
+You can read more about dynamic apps in following wiki link.
 
-The application can be accessed through the link below
+
+
 ````
-https://universe-report-v4.testing.kpininja.com/#/reports.
+link
 ````
 
 ## Steps to install and run
 1. Clone git reposotiry
 ````
-git clone https://bitbucket.org/kpininjarepo/kpi-reports-api/src/dev/
+git clone https://bitbucket.org/kpininjarepo/kpi-app-api/src/dev/
 ````
 2. Creating Database
 ````
@@ -56,12 +57,12 @@ mvn spring-boot:run
 ## Sample URL
 Following url is a sample url for the kpi-report-api
 ````
-http://localhost:9196/report/reports?type=global&modules=&search=&sortType=&sort=&page=1&limit=10
+http://localhost:8089/apps/fetchModuleGroups?backendName=JMABX
 ````
 ## Postman Collection Link
 The Postman collection link is used to test the endpoints and perform request mapping.
 ````
-https://www.getpostman.com/collections/4849ea95277297af6c98
+https://www.getpostman.com/collections/b3b799957f3c018d9653
 ````
 
 ### Author
