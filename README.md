@@ -9,9 +9,7 @@
 ## Description
 
 App module is responsible for exposing all the services which will be used in dynamic app and menu creation.
-You can read more about dynamic apps in following wiki link.
-
-
+More information on the dynamic apps can be found in link below.
 
 ````
 link
