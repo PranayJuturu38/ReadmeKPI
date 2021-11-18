@@ -9,11 +9,6 @@
 ## Description
 
 App module is responsible for exposing all the services which will be used in dynamic app and menu creation.
-More information on the dynamic apps can be found in link below.
-
-````
-link
-````
 
 ## Steps to install and run
 1. Clone git reposotiry
