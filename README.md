@@ -1,4 +1,4 @@
-# Kpi-App-API
+# Kpi-Adapter-API
 ***
 ## Prerequisites
 * [Spring Boot](https://spring.io/) - v2.0.1.RELEASE
@@ -8,12 +8,12 @@
 
 ## Description
 
-App module is responsible for exposing all the services which will be used in dynamic app and menu creation.
+Adapter api is and interface that calls thirdparty apis and returns the thirdparty response as its own response.
 
 ## Steps to install and run
 1. Clone git reposotiry
 ````
-git clone https://bitbucket.org/kpininjarepo/kpi-app-api/src/dev/
+git clone https://bitbucket.org/kpininjarepo/kpi-adapter-api/src/master/
 ````
 2. Creating Database
 ````
@@ -50,12 +50,12 @@ mvn spring-boot:run
 ## Sample URL
 Following url is a sample url for the kpi-report-api
 ````
-http://localhost:8089/apps/fetchModuleGroups?backendName=JMABX
+http://localhost:8089/api/newadaptermodule/ef39cadd-d616-403e-879d-92115a83b680
 ````
 ## Postman Collection Link
 The Postman collection link is used to test the endpoints and perform request mapping.
 ````
-https://www.getpostman.com/collections/b3b799957f3c018d9653
+https://www.getpostman.com/collections/654df188f93ecc5f1584
 ````
 
 ### Author
