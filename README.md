@@ -8,7 +8,7 @@
 
 ## Description
 
-Adapter api is and interface that calls thirdparty apis and returns the thirdparty response as its own response.
+Adapter api is an interface that calls thirdparty apis and returns the thirdparty response as its own response.
 
 ## Steps to install and run
 1. Clone git reposotiry
