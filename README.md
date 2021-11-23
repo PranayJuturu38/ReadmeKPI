@@ -48,7 +48,7 @@ mvn clean install
 mvn spring-boot:run
 ````
 ## Sample URL
-Following url is a sample url for the kpi-report-api
+Following url is a sample url for the kpi-Adapter-api
 ````
 http://localhost:8089/api/newadaptermodule/ef39cadd-d616-403e-879d-92115a83b680
 ````
