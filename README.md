@@ -64,6 +64,6 @@ The Postman collection link is used to test the endpoints and perform request ma
 https://www.getpostman.com/collections/654df188f93ecc5f1584
 ````
 ### Code Author
-[Sanilya Panchal](https://teams.microsoft.com/l/chat/0/0?users=pjuturu@kpininja.com) 
+[Sanilya Panchal](https://teams.microsoft.com/l/chat/0/0?users=sanilya@softvan.in) 
 ### Readme Author
 [Pranay Juturu](https://teams.microsoft.com/l/chat/0/0?users=pjuturu@kpininja.com)
