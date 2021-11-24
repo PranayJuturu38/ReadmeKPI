@@ -8,7 +8,12 @@
 
 ## Description
 
-Adapter api is an interface that calls thirdparty apis and returns the thirdparty response as its own response.
+Adapter api is and interface that calls thirdparty apis and returns the thirdparty response as its own response.
+
+The application can be accessed through hte following link
+````
+https://universe-user-v4.testing.kpininja.com/#/super-admin/third-party-endpoint
+````
 
 ## Steps to install and run
 1. Clone git reposotiry
@@ -48,15 +53,17 @@ mvn clean install
 mvn spring-boot:run
 ````
 ## Sample URL
-Following url is a sample url for the kpi-Adapter-api
+Following url is a sample API url to call third party API through kpi-adapter-api
+
 ````
-http://localhost:8089/api/newadaptermodule/ef39cadd-d616-403e-879d-92115a83b680
+https://{API_PROXY_URL}/api/newadaptermodule/{API_KEY}
 ````
 ## Postman Collection Link
 The Postman collection link is used to test the endpoints and perform request mapping.
 ````
 https://www.getpostman.com/collections/654df188f93ecc5f1584
 ````
-
-### Author
+###Code Author
+[Sanilya Panchal](https://teams.microsoft.com/l/chat/0/0?users=pjuturu@kpininja.com) 
+### Readme Author
 [Pranay Juturu](https://teams.microsoft.com/l/team/19%3aWB7L5KVaUkHBv8UiBt5xM0FMDdQNflVtrAPeXdH0XjI1%40thread.tacv2/conversations?groupId=444694ad-ecca-4857-a955-e3cf09528bd5&tenantId=d07ee4ce-db25-419d-a7d2-b04977af8f2a)
